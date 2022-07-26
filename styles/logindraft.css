@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap');
+
+#username{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    height: 40px;
+    width: 450px;
+    background-color: transparent;
+    
+}
+#password{
+    background-color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 450px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    
+   
+}
+
+.btn{
+    background-color: white;
+    color: #23284D;
+    font-size: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 50px;
+    height: 55px;
+    width: 450px;
+    background-color: transparent;
+    cursor:pointer;
+    border: 2px solid #23284D;
+    font-family: 'Manrope', sans-serif;
+    font-weight:800;
+    margin-left: 5px;
+    text-align:center;
+
+
+}
+.container{
+    margin-left: 300px;
+    margin-top:100px;
+}
+.header{
+    margin-top: 100px;
+    margin-left: 300px;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+h1{
+    font-size: 45px;
+  font-weight:800;
+}
+h2{
+    margin-top: -20px;
+    font-size: 17px;
+    font-weight:800;
+}
+p{
+ font-size: 17px;
+    font-family: 'Manrope', sans-serif;
+    font-weight:800;
+
+}
+
+.signup{
+    margin-top:50px;
+    margin-bottom:-100px;
+    font-family: 'Manrope', sans-serif;
+
+}
+#rememberme{
+    margin-top: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+
+label{
+
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    font-weight:800;
+}
+a{
+    text-decoration: none;
+    font-weight:800;
+    
+}
+
+.textbox{
+    margin-left: 5px;
+    border-color: rgba(0,0,0,0.3);
+}
+
+input{
+    text-indent: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight:800;
+}
+
+form i {
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:640px) {
+    .container{
+        margin-left: 10px;
+    }
+    .header{
+        margin-left:30px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+        
+    }
+    p{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .btn{
+        width:420px;
+        margin-left: 25px;
+    }
+    #username{
+        width:420px;
+        margin-left: 25px;
+    }
+    #password{
+        width:420px;
+        margin-left: 25px;
+    }
+    #rememberme{
+        margin-left: 30px;
+    }
+    .signup{
+        margin-left: 30px;
+    }
+}
