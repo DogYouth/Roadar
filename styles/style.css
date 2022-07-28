@@ -424,9 +424,9 @@ nav .fa {
 
 /* ----------- MEDIA  ----------- */
 
-/* ----------- 540px Max-Width ----------- */
+/* ----------- 480px Max-Width ----------- */
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 480px) {
 
     /* ---- header ---- */
     .text-box h1 {
