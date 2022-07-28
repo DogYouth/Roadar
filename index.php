@@ -18,10 +18,11 @@
             <div class="nav-links" id="navLinks">
             <img class="fa ico-close" src="resources/icons/xmark-solid.svg" onclick="hideMenu()" alt="close icon"></img>
                 <ul>
-                    <li><a href="/">Download</a></li>
                     <li><a href="/">About</a></li>
                     <li><a href="/">Service</a></li>
                     <li><a href="/">City</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="/">Sign in</a></li>
                 </ul>
             </div>
             <img class="fa ico-menu" src="resources/icons/bars-solid.svg" onclick="showMenu()" alt="menu icon"></img>

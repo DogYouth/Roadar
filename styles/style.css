@@ -17,6 +17,8 @@
   
 }
 
+/* ----------- LAYOUT ------------ */
+
 *{
     margin: 0;
     padding: 0;
@@ -122,49 +124,10 @@ nav .fa {
     display: none;
 }
 
-
-@media screen and (max-width: 700px) {
-    .text-box h1 {
-        font-size: 26px;
-    }
-
-    .text-box p {
-        font-weight: 300px;
-        font-size: 12px;
-    }
-
-    .nav-links ul li {
-        display: block;
-    }
-
-    .nav-links {
-        position: absolute;
-        background: var(--compliment);
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-
-    nav .fa {
-        display: block;
-        height: 20px;
-        margin: 10px;
-        cursor: pointer;
-    }
-
-    .nav-links ul{
-        padding: 30px;
-    }
-}
-
 /*----------- service -----------*/
 
 .services {
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
@@ -215,31 +178,10 @@ nav .fa {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-@media screen and (max-width: 700px) {
-    .row {
-        flex-direction: column;
-        margin-top: 3%;
-    }
-
-    .service-col img {
-        height: 100px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    .services h1 {
-        font-size: 26px;
-    }
-    
-    .services p {
-        font-size: 12px;
-    }
-}
-
 
 /*----------- cities -----------*/
 .cities {
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 25px;
@@ -260,12 +202,10 @@ nav .fa {
     margin-bottom: 50px;
 }
 
-
-
 /* --------- exclusives --------- */
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     justify-content: center;
 }
@@ -295,6 +235,7 @@ nav .fa {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 .gallery-item-info {
@@ -314,18 +255,10 @@ nav .fa {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 700px) {
-    .gallery {
-        padding-bottom: 0;
-    }
-}
-
-
-
 /* -------- partnership ---------- */
 
 .partnership {
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
@@ -373,41 +306,10 @@ nav .fa {
     padding: 10px 10px 0 0;
 }
 
-@media screen and (max-width: 700px) {
-    .partnership-col img {
-        width: 100%;
-        margin-top: 0;
-        padding: 0;
-    }
-
-    .partnership h1 {
-        font-size: 26px;
-    }
-
-    .partnership p {
-        margin-bottom: 0;
-    }
-
-    .partner-col {
-        padding: 0;
-    }
-    
-    .partner-col p {
-        font-size: 12px;
-        padding: 0;
-    }
-
-    .partnership-col h3 {
-        font-size: 16px;
-        padding: 0;
-    }
-}
-
-
 /*-------------- testimonials ------------ */
 
 .testimonials {
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
@@ -464,35 +366,11 @@ nav .fa {
     padding: 0;
 }
 
-@media screen and (max-width: 700px) {
-    .testimonials img {
-        height: 30px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    .testimonials h1 {
-        font-size: 26px;
-    }
-    
-    .testimonials p {
-        font-size: 12px;
-    }
-
-    .testimonial-col h3 {
-        font-size: 16px;
-    }
-
-    .testimonial-col .ico-star {
-        width: 10px;
-    }
-}
-
 /* ------------- call to action ------------- */
 
 .cta {
     margin: 50px auto;
-    width: 80%;
+    width: 90%;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../resources/images/banner1.png");
     background-position: center;
     background-size: cover;
@@ -507,24 +385,13 @@ nav .fa {
     padding: 0;
 }
 
-@media screen and (max-width: 700px) {
-    .cta {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .cta h1 {
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 22px;
-    }
-}
-
 /* -------------- footer -------------- */
 
 .footer {
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
+    margin-top: 100px;
 }
 
 .footer h4 {
@@ -555,11 +422,158 @@ nav .fa {
     cursor: pointer;
 }
 
+/* ----------- MEDIA  ----------- */
+
+/* ----------- 540px Max-Width ----------- */
+
+@media screen and (max-width: 540px) {
+
+    /* ---- header ---- */
+    .text-box h1 {
+        font-size: 26px;
+    }
+
+    .text-box p {
+        font-weight: 300px;
+        font-size: 12px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: var(--compliment);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .fa {
+        display: block;
+        height: 20px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .nav-links ul{
+        padding: 30px;
+    }
+
+    /* ---- call to action */
+    .cta {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .cta h1 {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    /* ---- testimonials ---- */
+    .testimonials img {
+        height: 30px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .testimonials h1 {
+        font-size: 26px;
+    }
+    
+    .testimonials p {
+        font-size: 12px;
+    }
+
+    .testimonial-col h3 {
+        font-size: 16px;
+    }
+
+    .testimonial-col .ico-star {
+        width: 10px;
+    }
+
+    /* ---- partnership */
+    .partnership-col img {
+        width: 100%;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .partnership h1 {
+        font-size: 26px;
+    }
+
+    .partnership p {
+        margin-bottom: 0;
+    }
+
+    .partner-col {
+        padding: 0;
+    }
+    
+    .partner-col p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .partnership-col h3 {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    /* ---- services ---- */
+    .row {
+        flex-direction: column;
+        margin-top: 3%;
+    }
+
+    .service-col img {
+        height: 100px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .services h1 {
+        font-size: 26px;
+    }
+    
+    .services p {
+        font-size: 12px;
+    }
+
+    /* ---- gallery ---- */
+    .gallery {
+        padding-bottom: 0;
+    }
+}
+
+/* ----------- 720px Max-Width ----------- */
+
+@media screen and (max-width: 720px) {
 
 
 
+}
+
+/* ----------- 1080px Max-Width ----------- */
+
+@media screen and (max-width: 1080px) {
+
+
+}
+
+/* ----------- 1920px Max-Width ----------- */
+
+@media screen and (max-width: 1920px) {
 
 
 
-
+}
 
