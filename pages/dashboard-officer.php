@@ -25,7 +25,7 @@
         </a></li>
         <li><a href="#"  class="a" id="announcement">
           <i class="bx bxs-megaphone"></i>
-          <span class="nav-item">Announcement</span>
+          <span class="nav-item">Messages</span>
         </a></li>
         <li><a href="#" class="a" id="history">
           <i class="bx bxs-folder"></i>
@@ -225,7 +225,7 @@
                   <select required>
                     <option disabled selected>Select junction type</option>
                     <option>Not at Junction</option>
-                    <option>Type 1</option>
+                    <option >Type 1</option>
                     <option>Type 2</option>
                     <option>Type 3</option>
                     <option>Type 4</option>
@@ -416,14 +416,16 @@
                   <input type="number" placeholder="Enter distance in km/m" required>
                 </div>
 
-                
-              </div><!-- end of fields -->
-            </div><!-- end of location details -->
+                <div class="input-field">
+                  <span class="title">Junction Accident Only</span>
+                </div>
 
-            <div class="notjunction_details">
-              <span class="title">Junction Accident Only</span>
+                <div class="input-field">
+                </div>
 
-              <div class="fields">
+                <div class="input-field">
+                </div>
+
                 <div class="input-field">
                   <label>Name of Second Road</label>
                   <input type="text" placeholder="Enter second road name" required>
@@ -438,8 +440,9 @@
                   <label>Distance</label>
                   <input type="number" placeholder="Enter distance in km/m" required>
                 </div>
+  
               </div><!-- end of fields -->
-            </div><!-- end of notjunction_details -->
+            </div><!-- end of details address -->
             <div class="buttons">
               <div class="backBtn">
                 <i class="uil uil-navigator"></i>
@@ -453,9 +456,10 @@
             </div><!-- end of buttons -->
           </div><!-- end of form third -->
 
-          <div class="form" id="prson_invlvd">
-            <div class="person_involved_details">
+          <div class="form" id="prsn_invlvd">
+            <div class="person_involved">
               <span class="title">Person Involved</span>
+
               <div class="fields">
                 <div class="input-field">
                   <label>Investigating Officer</label>
@@ -485,17 +489,21 @@
                 <div class="input-field">
                   <label>Driver 2 Statement</label>
                   <textarea name="drvr2_sttmnt" form="prson_invlvd" rows="5" placeholder="Enter text here..."></textarea>
-                </div>                
-              </div><!-- end of fields -->
-            </div><!-- end of person_involved_details -->
+                </div>           
 
-            <div class="status_details">
-              <span class="title">Accident Image & Coordinates Details</span>
-
-              <div class="fields">
                 <div class="input-field">
-                  <label>Investigating Officer</label>
-                  <input type="text" placeholder="Enter investigating officer" required>
+                  <span class="title">Accident Image & Coordinates Details</span>
+                </div>
+
+                <div class="input-field">
+                </div>
+
+                <div class="input-field">
+                </div>
+
+                <div class="input-field">
+                  <label>Photo of Accident</label>
+                  <input type="file" name="myImage" accept="image/png, image/gif, image/jpeg" class="img" />
                 </div>
 
                 <div class="input-field">
@@ -507,8 +515,9 @@
                   <label>Longitude</label>
                   <input type="text" placeholder="" required>
                 </div>
+  
               </div><!-- end of fields -->
-            </div><!-- end of notjunction_details -->
+            </div><!-- end of details address -->
             <div class="buttons">
               <div class="backBtn">
                 <i class="uil uil-navigator"></i>
@@ -516,14 +525,12 @@
               </div>
 
               <button class="sumbit">
-                <span class="btnText">Submit</span>
-                <i class="uil uil-navigator"></i>
+                  <span class="btnText">Submit</span>
+                  <i class="uil uil-navigator"></i>
               </button>
             </div><!-- end of buttons -->
           </div><!-- end of form fourth -->
-
-          
-         
+  
         </form>
         </div><!-- end of form-container -->
       </div><!-- main-body -->
